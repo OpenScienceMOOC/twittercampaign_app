@@ -37,7 +37,12 @@ ui <- fluidPage(
         , shiny::textInput("twittername",label="write your twitter handle (without @)", value = "j_colomb")  
         ,shiny::textInput("bdg",label="url of the activism image", value = "https://www.klima-streik.org/fileadmin/_processed_/1/0/csm_KLIMASTREIK_September2020_Tweet-Bild_1200x677_08fe83181d.jpg")
         ,shiny::downloadButton("newavatar", label = "download your old and new avatars in a zip file.")
-        ,"This app is in beta mode, sorry if something is not working. It would be great to have a button to update your avatar directly, but this needs unfortunately much more work ...")
+        ,tags$br()
+        ,"This app is in beta mode, sorry if something is not working. It would be great to have a button to update your avatar directly, but this needs unfortunately much more work ..."
+        ,tags$br(),
+        "Give feedback, see more info (coming) at our "
+        , HTML("<a href =https://github.com/OpenScienceMOOC/twittercampaign_app>GitHub page</a>")
+        )
     
 )
 

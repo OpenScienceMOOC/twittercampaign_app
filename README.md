@@ -6,7 +6,14 @@ The tricky part to do it in R/shiny is pushing the image to the profile, as no r
 
 # updates
 
-this is not yet a package:
+application created and sent to: 
+https://colomb.shinyapps.io/activism-twitteravatar/
+
+created thanks to some direction  https://medium.com/@skyetetra/how-to-make-rtweet-r-shiny-apps-with-user-credentials-48acca246b58
+
+# main function: newtwitteravatar
+
+NB: this is not yet a package:
 
 -install magick and rtweet packages, 
 - download or copy the function.r file,
